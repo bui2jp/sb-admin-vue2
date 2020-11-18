@@ -1,5 +1,17 @@
 # vue-sb-admin2
 
+Vue js
+SB Admin 2 - Dashboard
+SB Admin 2で利用しているvenderライブラリをnpmで読み込むようにしてみる
+
+venderライブラリ
+```
+fontawesome-free
+bootstrap
+jquery
+jquery.easing
+```
+
 ## Project setup
 ```
 npm install
