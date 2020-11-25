@@ -15,6 +15,15 @@ import './lib/sb-admin2/css/sb-admin-2.min.css'
 //import './lib/sb-admin2/js/sb-admin-2.js'
 import $ from 'jquery'
 
+// OpenLayersのCSSを読み込み
+import 'ol/ol.css';
+
+import VCalendar from 'v-calendar';
+// Use v-calendar & v-date-picker components
+Vue.use(VCalendar, {
+  //componentPrefix: 'vc',  // Use <vc-calendar /> instead of <v-calendar />
+});
+
 new Vue({
   router,
   store,

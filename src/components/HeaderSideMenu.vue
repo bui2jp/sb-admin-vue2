@@ -29,7 +29,7 @@
           <router-link to="page1">
         <a class="nav-link" href="#">
           <i class="fas fa-fw fa-folder"></i>
-          <span>Page1</span></a
+          <span>Page1 (api axios)</span></a
         ></router-link>
       </li>
 
@@ -38,7 +38,17 @@
         <router-link to="page2">
           <a class="nav-link" href="#">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Page2</span></a
+            <span>Page2 (OpenLayers)</span></a
+          >
+        </router-link>
+      </li>
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <router-link to="page3">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page3 (Calender)</span></a
           >
         </router-link>
       </li>
